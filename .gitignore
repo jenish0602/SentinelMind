@@ -1,0 +1,32 @@
+# Maven build output
+target/
+*.class
+*.war
+*.jar
+
+# IDE files
+.idea/
+.vscode/
+nbproject/private/
+*.iml
+
+# Secrets and local config
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.jks
+secrets/
+config/local/
+
+# Runtime output
+logs/
+*.log
+src/main/webapp/uploads/*
+!src/main/webapp/uploads/.gitkeep
+
+# OS files
+.DS_Store
+Thumbs.db
